@@ -1,4 +1,3 @@
-library(testthat)
 context("Testing hello world")
 source(here::here("R/hello_world.R"))
 
