@@ -5,6 +5,6 @@
 #' @examples
 #' helloworld()
 #' @export
-helloworld <- function() { 
+helloworld <- function() {
 	print("hello world")
 }
