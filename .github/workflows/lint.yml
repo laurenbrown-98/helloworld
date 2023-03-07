@@ -1,9 +1,11 @@
 on:
   push:
     branches:
+    # if more branches are added to the repo, also add here
       - main
   pull_request:
     branches:
+    # if more branches are added to the repo, also add here
       - main
   workflow_dispatch:
 
