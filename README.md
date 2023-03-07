@@ -1,6 +1,6 @@
 # This is a package to say Hello to the World!
 
-This package contains a single function which prints out "hello world".
+This package contains a single function which prints out "hello world" to make a package for the first time!
 
 ## Installation
 
