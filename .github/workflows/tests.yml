@@ -24,7 +24,9 @@ jobs:
       
       - uses: r-lib/actions/setup-pandoc@v2
                 
-      - uses: r-lib/actions/setup-renv@v2 # use our renv.lock
+      - name: Install dependencies
+        run: install.packages(c("testthat", "here"))
+        shell: Rscript {0}
         
       - name: Run unit tests
         run: source("tests/testthat.R")
