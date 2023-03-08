@@ -1,5 +1,5 @@
 context("Testing hello world")
-source(here::here("R/hello_world.R"))
+source(here("R/hello_world.R"))
 
 test_that(desc = "This prints hello world", code = {
 	test_print <- helloworld()
